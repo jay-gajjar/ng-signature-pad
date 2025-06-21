@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build:lib": "ng build signature-pad-angular --configuration production",
-    "build:web": "ng build signature-pad-web --configuration production --base-href /ng-signature-pad/",
+    "build:web": "ng build signature-pad-web --configuration production --base-href /signature-pad-angular/",
     "watch": "ng build signature-pad-angular --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",

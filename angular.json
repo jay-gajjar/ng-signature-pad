@@ -61,6 +61,7 @@
             "tsConfig": "projects/signature-pad-web/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
+              "projects/signature-pad-web/src/favicon.ico",
               {
                 "glob": "**/*",
                 "input": "projects/signature-pad-web/public"
