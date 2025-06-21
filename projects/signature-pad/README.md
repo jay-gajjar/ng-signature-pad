@@ -1,64 +1,50 @@
-# SignaturePad
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
+# ng-signature-pad
 
-## Code scaffolding
+Generates digital signature
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Installation
 
 ```bash
-ng generate --help
+  npm install ng-signature-pad
 ```
 
-## Building
 
-To build the library, run:
+## Usage
 
-```bash
-ng build signature-pad
+```ts
+import { NgSignaturePadModule } from 'ng-signature-pad';
+
+@Component({
+  imports: [NgSignaturePadModule],
+  ...,
+})
+export class AppComponent {}
+
 ```
 
-This command will compile your project, and the build artifacts will be placed in the `dist/` directory.
+```html
+// add as component
 
-### Publishing the Library
+<ng-signature-pad></ng-signature-pad>
 
-Once the project is built, you can publish your library by following these steps:
+// add as directive
 
-1. Navigate to the `dist` directory:
+<div ngSignaturePad></div>
 
-   ```bash
-   cd dist/signature-pad
-   ```
-
-2. Run the `npm publish` command to publish your library to the npm registry:
-   ```bash
-   npm publish
-   ```
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
 ```
 
-## Running end-to-end tests
+&nbsp;
+## Configuration Options
 
-For end-to-end (e2e) testing, run:
+**`Configs`**
 
-```bash
-ng e2e
-```
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `lineSize` | number | To increase/descrease line size drawn. Default is 3. |
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
+## License
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://choosealicense.com/licenses/mit/) 

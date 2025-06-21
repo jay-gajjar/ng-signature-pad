@@ -3,11 +3,11 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "signature-pad": {
+    "ng-signature-pad": {
       "projectType": "library",
       "root": "projects/signature-pad",
       "sourceRoot": "projects/signature-pad/src",
-      "prefix": "lib",
+      "prefix": "ng",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",

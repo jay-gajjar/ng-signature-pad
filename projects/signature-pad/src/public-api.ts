@@ -3,3 +3,4 @@
  */
 
 export * from './lib/signature-pad/signature-pad.component';
+export * from './lib/signature-pad/signature-pad.module';

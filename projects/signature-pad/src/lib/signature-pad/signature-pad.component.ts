@@ -8,9 +8,10 @@ export enum ExportType {
 }
 
 @Component({
-  selector: 'lib-signature-pad',
+  selector: 'ng-signature-pad, [ngSignaturePad]',
   templateUrl: './signature-pad.component.html',
   styleUrls: ['./signature-pad.component.scss'],
+  standalone: false,
 })
 export class SignaturePadComponent implements AfterViewInit, OnDestroy {
   @ViewChild('containerRef') containerRef!: ElementRef<HTMLDivElement>;
