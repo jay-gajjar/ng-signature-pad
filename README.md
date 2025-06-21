@@ -4,6 +4,13 @@
 Generates digital signature
 
 
+
+## Demo
+
+[See Demo](https://jay-gajjar.github.io/ng-signature-pad/)
+
+
+
 ## Installation
 
 ```bash
