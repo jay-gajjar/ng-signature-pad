@@ -1,0 +1,17 @@
+<div class="signature-pad">
+  <div #containerRef id="canvas-wrap" class="canvas-container">
+    <canvas #canvasRef id="signature-canvas"></canvas>
+  </div>
+  <div class="signature-pad-actions">
+    <button
+      class="signature-pad-action"
+      [title]="hasSignature ? '' : 'Please add signature!'"
+      [disabled]="!hasSignature"
+      (click)="downloadCanvas(ExportType.PNG)">
+      Save
+    </button>
+    <button class="signature-pad-action" (click)="setBackground()">Change Background</button>
+    <button class="signature-pad-action" (click)="clearCanvas()">Clear</button>
+    <button class="signature-pad-action" (click)="reset()">Reset</button>
+  </div>
+</div>

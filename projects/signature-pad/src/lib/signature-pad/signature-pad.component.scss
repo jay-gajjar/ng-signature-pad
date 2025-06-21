@@ -1,0 +1,44 @@
+.signature-pad {
+  height: 100%;
+  position: relative;
+  .canvas-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    position: relative;
+  }
+
+  #signature-canvas-bg {
+    position: absolute;
+    z-index: -1;
+  }
+
+  #signature-canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    z-index: 10;
+    // background-color: white;
+  }
+
+  .signature-pad-actions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    z-index: 11;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+
+    .signature-pad-action {
+      &:not(:disabled) {
+        cursor: pointer;
+      }
+    }
+  }
+}
