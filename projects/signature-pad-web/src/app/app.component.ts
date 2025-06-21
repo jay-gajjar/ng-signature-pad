@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgSignaturePadModule } from 'ng-signature-pad';
+import { NgSignaturePadModule } from 'signature-pad-angular';
 
 @Component({
   selector: 'app-root',

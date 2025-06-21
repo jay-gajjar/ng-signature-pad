@@ -4,8 +4,9 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "build:lib": "ng build signature-pad-angular --configuration production",
     "build:web": "ng build signature-pad-web --configuration production --base-href /ng-signature-pad/",
-    "watch": "ng build ng-signature-pad --watch --configuration development",
+    "watch": "ng build signature-pad-angular --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
     "format": "prettier --write --list-different \"projects/{signature-pad-web,signature-pad}/src/{app,lib}/**/*{.html,.ts,.js,.json,.css,.scss}\""

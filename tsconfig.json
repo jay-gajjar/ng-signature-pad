@@ -15,7 +15,7 @@
     "experimentalDecorators": true,
     "moduleResolution": "bundler",
     "paths": {
-      "ng-signature-pad": ["./dist/ng-signature-pad"]
+      "signature-pad-angular": ["./dist/signature-pad-angular"]
     },
     "importHelpers": true,
     "target": "ES2022",

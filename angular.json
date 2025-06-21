@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-signature-pad": {
+    "signature-pad-angular": {
       "projectType": "library",
       "root": "projects/signature-pad",
       "sourceRoot": "projects/signature-pad/src",

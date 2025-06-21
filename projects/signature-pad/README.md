@@ -1,5 +1,5 @@
 
-# ng-signature-pad
+# signature-pad-angular
 
 Generates digital signature
 
@@ -14,14 +14,14 @@ Generates digital signature
 ## Installation
 
 ```bash
-  npm install ng-signature-pad
+  npm install signature-pad-angular
 ```
 
 
 ## Usage
 
 ```ts
-import { NgSignaturePadModule } from 'ng-signature-pad';
+import { NgSignaturePadModule } from 'signature-pad-angular';
 
 @Component({
   imports: [NgSignaturePadModule],
