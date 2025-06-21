@@ -54,7 +54,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/signature-pad-web",
+            "outputPath": "docs",
             "index": "projects/signature-pad-web/src/index.html",
             "browser": "projects/signature-pad-web/src/main.ts",
             "polyfills": ["zone.js"],
