@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build:web": "ng build signature-pad-web --configuration=production",
     "watch": "ng build ng-signature-pad --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
