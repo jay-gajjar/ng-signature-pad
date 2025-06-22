@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import { SignaturePadAngularComponent } from 'signature-pad-angular';
 
 @Component({
   selector: 'app-root',
-  styleUrls: ['./app.component.scss'],
+  imports: [SignaturePadAngularComponent],
+  styleUrl: './app.component.scss',
   template: `
     <div class="signature-wrapper">
       <div class="wrap">

@@ -1,6 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,8 +9,8 @@ body {
 }
 
 .signature-pad-actions {
-  background-color: #fff;
-  .signature-pad-action {
+background-color: #fff;
+.signature-pad-action {
     background-color: #ffffff;
     border: 1px solid #000;
     outline: none;
@@ -19,14 +18,13 @@ body {
     min-width: 100px;
     border-radius: 8px;
     &:disabled {
-      background: #cccccc;
-      border: none;
+            background: #cccccc;
+    border: none;
     }
     &:not(:disabled) {
-      &:hover {
-        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-          0 6px 20px 0 rgba(0, 0, 0, 0.19);
-      }
+        &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
     }
-  }
+}
 }

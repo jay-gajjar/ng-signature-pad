@@ -174,15 +174,15 @@ export class SignaturePadAngularComponent implements AfterViewInit, OnDestroy {
   }
 
   exportPNG(): Promise<string> {
-    return toPng(this.containerRef.nativeElement, { cacheBust: true });
+    return toPng(this.containerRef.nativeElement, { skipFonts: true, cacheBust: true });
   }
 
   exportJPG(): Promise<string> {
-    return toJpeg(this.containerRef.nativeElement);
+    return toJpeg(this.containerRef.nativeElement, { skipFonts: true, cacheBust: true });
   }
 
   exportSVG(): Promise<string> {
-    return toSvg(this.containerRef.nativeElement);
+    return toSvg(this.containerRef.nativeElement, { skipFonts: true, cacheBust: true });
   }
 
   downloadSignature(dataUrl: string, extension: 'png' | 'jpeg' | 'svg') {
